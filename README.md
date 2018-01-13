@@ -81,7 +81,7 @@ The following questions have been answered :
 
 **Step 3.** Displaying the returned output in javascript_task.html page
 
-### JavaScript_Tasks
+### Python_Tasks
 **Python_Tasks folder consists of the following :**
 1. Common_elements_inList1.py  
 2. no_of_Thursdays.py
