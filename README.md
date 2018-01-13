@@ -67,7 +67,7 @@ Note: in given data there are no lattitude and longitude so unable to implement 
 **Step 5.** Sort the values in assending order.Plot the results into bar chart.
   
   
-  
+### JavaScript_Tasks 
 **JavaScript_Tasks folder consists of the following :**
 1. javascript_task.html   
 2. remove_zeros_frm_arr.js
@@ -81,7 +81,7 @@ The following questions have been answered :
 
 **Step 3.** Displaying the returned output in javascript_task.html page
 
-
+### JavaScript_Tasks
 **Python_Tasks folder consists of the following :**
 1. Common_elements_inList1.py  
 2. no_of_Thursdays.py
