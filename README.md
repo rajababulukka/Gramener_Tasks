@@ -3,9 +3,15 @@
 **This repository consists of the following :**
 
 1. README.txt (this file) 
-2. "india-districts-census-2011.csv" file 
-3. 3 Ipython notebooks
+2. Analysis folder for Analysis related tasks
+3. JavaScript_Tasks folder for javascript related taks
+4. Python_Tasks folder for python related tasks
 
+**Analysis folder consists of the following :**
+1. "india-districts-census-2011.csv" file  
+2. Canopy Ipython notebooks
+3. Canopy Ipython notebooks checkpoints
+4. Python files
 
 ### Step 1 : IMPORTING LIBRARIES
 
@@ -59,4 +65,43 @@ Note: in given data there are no lattitude and longitude so unable to implement 
             mobile penetration = (total Households_with_Telephone_Mobile_Phone/ total Households) * 100
             
 **Step 5.** Sort the values in assending order.Plot the results into bar chart.
-            
+  
+  
+  
+**JavaScript_Tasks folder consists of the following :**
+1. javascript_task.html   
+2. remove_zeros_frm_arr.js
+
+The following questions have been answered :
+#### Q1. Write a Javascript function or expression that returns an array with just the zeroes removed.
+
+**Step 1.** Created a function name with array_without_zero and parameters as array and element
+
+**Step 2.** Looping through array and checking if element is matched or not. if matched splice the array with indexed element
+
+**Step 3.** Displaying the returned output in javascript_task.html page
+
+
+**Python_Tasks folder consists of the following :**
+1. Common_elements_inList1.py  
+2. no_of_Thursdays.py
+
+The following questions have been answered :
+#### Q1. Given two lists L1 = ['a', 'b', 'c'], L2 = ['b', 'd'], find common elements, find elements present in L1 and not in L2?
+
+**Step 1.** Created a function name with common_elements_in_list1 and parameters as list1 and list2
+
+**Step 2.** Taking empty list and Looping through list1 and checking if element is in list2 or not. if there append list1 element to empty list and return that appended values list.
+
+#### Q1. How many Thursdays were there between 1990 - 2000?
+
+**Step 1.** Created a function name with no_of_Thursdays and parameters as from year and to year
+
+**Step 2.** Converting from year to start date of the from year and to year to end date of the to year
+
+**Step 3.** Specifying datetime format and taking count as 0
+
+**Step 4.** Iterate from start date day in range of all days from end date and start date difference
+
+**Step 5.** Get the weekday from calender and check if the weekday is Thursday then increment count by 1 and return the count.
+
